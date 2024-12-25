@@ -28,8 +28,48 @@ $userAge = 40;
 
 /*
 include("layout/footer.php");
+echo "<h1>Home Page content</h1>";
 include("layout/header.php");
+*/
+
+//redirect 
+/*$isloggedin = true;
+
+if(!$isloggedin){
+  header("Location: 06-condition-and-layout/login.php");
+}
+*/
+
+// Swtich stetment
 /*
+$number = 2;
+
+switch ($number){
+  case 1:
+    echo "One";
+    break;
+
+  case 2:
+    echo "Two";
+    break;
+
+  default:
+    echo "Undefined";
+    break;
+}
+*/
+
+
+$number = 1;
+echo $number;
+$number = 2;
+echo $number;
+
+
+
+
+
+
   
 
 
