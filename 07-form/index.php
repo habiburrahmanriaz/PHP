@@ -8,8 +8,10 @@
 <body>
   
 
-<form>
-  <input type="text" placeholder="Name"><br><br>
+<form action="form-submit.php" method="post">
+  <input type="text" placeholder="Name" name="username"><br><br>
+  <input type="text" placeholder="Email" name="email"><br><br>
+
   <input type="submit" value="Submit Form">
 </form>
 

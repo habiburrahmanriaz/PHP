@@ -1,1 +1,5 @@
 Browser=>Request=>Server=>Response=>Browser
+2/ Form Handling
+3/ Form Action
+4/ Access Submited Form Data
+5/ Request method / Get and post / Difference between post and get method 
