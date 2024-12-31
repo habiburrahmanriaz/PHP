@@ -8,9 +8,10 @@
 <body>
   
 
-<form action="form-submit.php" method="post">
+<form action="form-submit.php" method="post" enctype="multipart/form-data">
   <input type="text" placeholder="Name" name="username"><br><br>
   <input type="text" placeholder="Email" name="email"><br><br>
+  <input type="file" placeholder="file" name="file"><br><br>
 
   <input type="submit" value="Submit Form">
 </form>

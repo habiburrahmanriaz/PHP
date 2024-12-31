@@ -3,3 +3,12 @@ Browser=>Request=>Server=>Response=>Browser
 3/ Form Action
 4/ Access Submited Form Data
 5/ Request method / Get and post / Difference between post and get method 
+6/ ENCType 
+7/ $_FILE
+
+========
+HTML attributes
+action, method, enctype, input=> neme
+
+Variable:
+$Request, $POST, $GET, $FILE
