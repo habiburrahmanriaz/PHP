@@ -6,15 +6,17 @@ $db_username = "root";
 $db_password = "";
 $db_name = "testdb";
 
-$conn = mysqli_connect($servername, $db_username, $db_password);
+$conn = mysqli_connect($servername, $db_username, $db_password, $db_name);
 
 if($conn){
-  echo "Database connected!";
+  echo "Database connected! </br>";
 }
 
 // Insert data to database
+// has password 
+$hash_pass = md5(1234);
 
-$sql = "INSERT INTO users (name, email, password) VALUES ('Habib', 'habib@gmail.com', '1234')";
+$sql = "INSERT INTO users (name, email, password) VALUES ('Habib', 'habib@gmail.com', '$hash_pass')";
 
 
 $insert_user = mysqli_query($conn, $sql);
