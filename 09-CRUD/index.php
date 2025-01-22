@@ -1,12 +1,18 @@
-<?php
-$host = 'localhost';
-$db_user = 'root';
-$db_password = 'password';
-$db_table_name = 'users';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CRUD</title>
+</head>
+<body>
 
+<form action="insert.php">
+	<input type="text" placeholder="name" name="username"><br/><br/>
+	<input type="text" placeholder="email" name="email"><br/><br/>
+	<input type="text" placeholder="password" name="password"><br/><br/>
+	<input type="submit" value="Insert Data">
+</form>
 
-$connection = mysqli_connect($host, $db_user, $db_password, $db_table_name);
-
-if(!$connection){
-  echo "Database connection is error";
-}
+</body>
+</html>
