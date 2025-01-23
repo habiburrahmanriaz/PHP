@@ -13,10 +13,14 @@ if(!$connection){
 
 // Inser Data
 
-$username = $_REQUEST['name'];
+$username = $_REQUEST['username'];
 $useremail = $_REQUEST['email'];
 $userpass = $_REQUEST['password'];
 
 $sql = "INSERT INTO users (name, email, password) VALUES ('$username', '$useremail', '$userpass')";
 
 $insert_data =mysqli_query($connection, $sql);
+
+if($insert_data){
+	echo "Data inserted";
+}
