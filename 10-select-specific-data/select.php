@@ -19,6 +19,6 @@ $query = "SELECT * FROM users WHERE id = '$user_id' ";
 $result = mysqli_query($conn, $query);
 
 // Result
-while( $item = mysqli_fetch_assoc($result) ){
-	echo $item['name'];
-}
+// while( $item = mysqli_fetch_assoc($result) ){
+// 	echo $item['name'];
+// }
